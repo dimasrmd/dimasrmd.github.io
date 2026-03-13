@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ] # Menjalankan deploy setiap kali kamu push ke branch main
+    branches: [ main ]
 
 permissions:
   contents: read
@@ -16,5 +16,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install, build, and upload with Astro
-        uses: withastro/action@v3 # Action otomatis dari Astro
-        # Jika kamu menggunakan pnpm atau yarn, bisa dikonfigurasi di sini
+        uses: withastro/action@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
