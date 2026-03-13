@@ -19,7 +19,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   // Sesuaikan dengan username dan nama repo kamu
   site: 'https://dimasrmd.github.io',
-  base: '/BLOG-JURNAL-HARIAN-MAHASISWA', 
+  base: '/', 
   integrations: [mdx(), sitemap()],
   vite: {
     plugins: [tailwindcss()],
