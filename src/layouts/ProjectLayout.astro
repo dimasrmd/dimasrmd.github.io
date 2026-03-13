@@ -1,0 +1,129 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import { Image } from 'astro:assets';
+
+const { title, description, pubDate, heroImage, category, readingTime = "5 mins", sideText } = Astro.props;
+---
+
+<html lang="id">
+    <head>
+        <BaseHead title={title} description={description} />
+        <style>
+            @import "../styles/global.css";
+        </style>
+    </head>
+
+    <body class="bg-white">
+        <Header />
+        
+        <div id="split-container" class="flex flex-col lg:flex-row min-h-[calc(100vh-64px)] relative">
+            
+            <aside class="lg:w-1/2 relative h-[50vh] lg:h-[calc(100vh-64px)] lg:sticky lg:top-[64px] overflow-hidden bg-slate-900">
+                
+                <Image 
+                    id="parallax-img"
+                    src={heroImage}
+                    alt="" 
+                    class="absolute top-0 left-0 w-full h-auto rounded-none transition-transform duration-75 ease-out"
+                />
+                
+                <div class="absolute inset-0 bg-black/20 p-8 lg:p-16 flex flex-col justify-start pointer-events-none">
+                    <h2 class="text-white text-7xl lg:text-[7.5rem] font-display font-bold uppercase leading-none tracking-normal wrap-break-words max-w-min mt-8 lg:mt-0">
+                        {sideText}
+                    </h2>
+                </div>
+            </aside>
+
+            <main class="lg:w-1/2 p-8 lg:p-16 lg:pr-24 flex flex-col">
+                <header class="mb-12">
+                    <h1 class="text-6xl lg:text-[5rem] font-bold font-display leading-[0.85] tracking-tight text-slate-900 mb-10">
+                        {title}
+                    </h1>
+
+                    <div class="grid grid-cols-3 gap-4 border-t border-b border-slate-200 py-6 text-[10px] uppercase tracking-widest font-sans font-bold text-slate-400">
+                        <div>
+                            Publish Date <br />
+                            <span class="text-black mt-1 block capitalize font-sans">{
+                                new Date(pubDate).toLocaleDateString('id-ID', {
+                                weekday: 'long',
+                                day: 'numeric',
+                                month: 'long',
+                                year: 'numeric',
+                            })}</span>
+                        </div>
+                        <div>
+                            Category <br />
+                            <span class="text-black mt-1 block capitalize font-sans">{category}</span>
+                        </div>
+                        <div>
+                            Reading Time <br />
+                            <span class="text-black mt-1 block capitalize font-sans">{readingTime}</span>
+                        </div>
+                    </div>
+                </header>
+
+                <article class="prose prose-xl prose-slate max-w-none mb-20 font-serif">
+                    <slot />
+                </article>
+
+                <div class="mt-auto pt-10 border-t border-slate-200 flex justify-between text-xs font-bold uppercase tracking-widest font-sans">
+                    <a href="/blog" class="hover:underline">← Previous Article</a>
+                    <a href="#" class="text-slate-300 hover:text-black transition-colors">↑ Back to Top</a>
+                </div>
+            </main>
+        </div>
+
+        <script>
+            function initParallax() {
+                const container = document.getElementById('split-container');
+                const img = document.getElementById('parallax-img');
+
+				
+                function onScroll() {
+					if (!container || !img) return;
+                    // Hanya aktifkan di layar desktop (di atas 1024px)
+                    if (window.innerWidth < 1024) {
+                        img.style.transform = 'translateY(0)';
+                        return;
+                    }
+
+                    // Hitung jarak scroll saat ini
+                    const scrollY = window.scrollY;
+                    const containerTop = container.offsetTop;
+
+                    // Hitung tinggi 'jendela' kiri (layar dikurangi header 64px)
+                    const viewportHeight = window.innerHeight - 64;
+                    const containerHeight = container.offsetHeight;
+
+                    // Jarak maksimal artikel bisa di-scroll
+                    const maxScroll = containerHeight - viewportHeight;
+
+                    // Jika artikel terlalu pendek, matikan efek
+                    if (maxScroll <= 0) return; 
+
+                    // Cari tahu sudah berapa PERSEN kita men-scroll artikel (0.0 sampai 1.0)
+                    let progress = (scrollY - containerTop + 64) / maxScroll;
+                    progress = Math.max(0, Math.min(1, progress)); // Kunci di angka 0 - 1
+
+                    // Hitung selisih tinggi gambar dan tinggi 'jendela'
+                    const imgHeight = img.offsetHeight;
+                    const maxTranslate = viewportHeight - imgHeight;
+
+                    // Gerakkan gambar sesuai persentase scroll artikel
+                    img.style.transform = `translateY(${progress * maxTranslate}px)`;
+                }
+
+                // Jalankan fungsi saat pengguna melakukan scroll atau resize layar
+                window.addEventListener('scroll', onScroll, { passive: true });
+                window.addEventListener('resize', onScroll);
+
+                // Jalankan sekali saat halaman pertama kali dibuka untuk menyesuaikan posisi
+                setTimeout(onScroll, 100);
+            }
+
+            // Memicu script saat halaman selesai dimuat
+            document.addEventListener('DOMContentLoaded', initParallax);
+        </script>
+    </body>
+</html>
