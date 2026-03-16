@@ -3,13 +3,13 @@ title: 'Journal Mahasiswa Minggu Ke-2'
 description: 'Jurnal Mingguan Ke-2'
 pubDate: 'Jun 08 2026'
 heroImage: '../../assets/Sampul-Jurnal-Week-2.png'
-category: 'Improvement Skill'
+category: 'Campus'
 readingTime: '3 MINS'
 ---
 
 Memasuki minggu kedua, ritme perkuliahan mulai meningkat dengan adanya materi praktis di laboratorium, khususnya pada mata kuliah Jaringan Komputer dan Pemrograman Berorientasi Objek (PBO). Fokus utama saya minggu ini bukan hanya menyelesaikan tugas tepat waktu, tetapi juga mulai membangun identitas digital dengan mengonfigurasi framework Astro untuk jurnal mingguan ini. Minggu ini menjadi ajang pembuktian efisiensi waktu dalam menghadapi berbagai kuis dan laporan praktikum yang mulai berdatangan.
 
-![alt text](<../../assets/week_2/Screenshot 2026-03-08 154307.png>) 
+![alt text](../../assets/week_2/framework_astro.png)
 
 ## Ringkasan Aktivitas Mingguan (Minggu Ke-2)
 | Hari | Fokus Aktivitas | Output | Durasi (jam) |
@@ -22,6 +22,8 @@ Memasuki minggu kedua, ritme perkuliahan mulai meningkat dengan adanya materi pr
 | Sabtu | Belajar Mandiri | Set-Up framework Astro untuk membuat blog berbasis website | 3 Jam |
 | Minggu | Belajar Mandiri | Mempelajari lebih dalam tentang framework Astro dan belajar bahasa C++ di codedex | 3,5 Jam |
 
+![alt text](../../assets/week_2/codedex.png)
+
 ## Capaian Minggu Ini
 Tuliskan pencapaian utama: 
 1. Setup website untuk journal mingguan menggunakan framework Astro
@@ -29,7 +31,7 @@ Tuliskan pencapaian utama:
 3. Belajar bahasa Java
 4. Menuntaskan semua kuis dan tugas minggu ini
 
-![](<../../assets/week_2/Screenshot 2026-03-14 043058.png>)
+![alt text](../../assets/week_2/python_dasar.png)
 
 ## Progress Terhadap Target Semester
 - Target Semester: Membangun portofolio digital yang komprehensif menggunakan Astro dan menguasai analisis efisiensi algoritma serta konsep Advanced OOP (Java).
