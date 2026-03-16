@@ -14,13 +14,13 @@ Memasuki minggu kedua, ritme perkuliahan mulai meningkat dengan adanya materi pr
 ## Ringkasan Aktivitas Mingguan (Minggu Ke-2)
 | Hari | Fokus Aktivitas | Output | Durasi (jam) |
 | :--- | :--- | :--- | :--- |
-| Senin | Berkuliah, Mengerjakan Tugas | Mempelajari bahasa Python, cara AI mencari data. Mengerjakan tugas DKA dan Laporan Praktikum DKA | 7 Jam |
-| Selasa | Berkuliah, Mengerjakan Tugas | Mempelajari ciri UI yang baik, Bahasa Java. Menyelesaikan tugas dan kuis | 8,3 Jam |
-| Rabu | Berkuliah, Membuat LaPrak | Mempelajari efisiensi Algo Brute-Force, Menyelesaikan LaPrak DKA | 6 Jam |
-| Kamis | Berkuliah, Mengerjakan tugas dan kuis | Praktik membuat kabel LAN (straight dan crossover), Mempelajari Protocol dalam jaringan, dan Menyelesaikan kuis dan LaPrak JarKom | 7 Jam |
-| Jumat | Berkuliah, Mengerjakan Tugas | Mempelajari Enkapulasi dalam OOP, membuat journal harian, dan menyelesaikan kuis PBO | 6,5 Jam |
-| Sabtu | Belajar Mandiri | Set-Up framework Astro untuk membuat blog berbasis website | 3 Jam |
-| Minggu | Belajar Mandiri | Mempelajari lebih dalam tentang framework Astro dan belajar bahasa C++ di codedex | 3,5 Jam |
+| Senin | Berkuliah, Mengerjakan Tugas | • Mempelajari bahasa Python, dan cara AI mencari data <br /> • Mengerjakan tugas DKA <br /> • Mengerjakan Laporan Praktikum DKA | 7 Jam |
+| Selasa | Berkuliah, Mengerjakan Tugas | • Mempelajari ciri UI yang baik <br /> • Mempelajari Bahasa Java <br /> • Menyelesaikan tugas dan kuis IMK | 8,3 Jam |
+| Rabu | Berkuliah, Membuat LaPrak | • Mempelajari efisiensi Algo Brute-Force <br /> • Menyelesaikan LaPrak DKA | 6 Jam |
+| Kamis | Berkuliah, Mengerjakan tugas dan kuis | • Praktik membuat kabel LAN (straight dan crossover) <br /> • Mempelajari Protocol dalam jaringan <br /> • Menyelesaikan kuis dan LaPrak JarKom | 7 Jam |
+| Jumat | Berkuliah, Mengerjakan Tugas | • Mempelajari Enkapulasi dalam OOP <br /> • Membuat journal harian <br /> • Menyelesaikan kuis PBO | 6,5 Jam |
+| Sabtu | Belajar Mandiri | • Set-Up framework Astro untuk membuat blog berbasis website | 3 Jam |
+| Minggu | Belajar Mandiri | • Mempelajari lebih dalam tentang framework Astro <br /> • Belajar bahasa C++ di codedex | 3,5 Jam |
 
 ![alt text](../../assets/week_2/codedex.png)
 

@@ -12,11 +12,11 @@ Minggu ketiga ini membawa nuansa yang berbeda. Seiring dengan tradisi mudik menj
 ## Ringkasan Aktivitas Mingguan (Minggu Ke-3)
 | Hari | Fokus Aktivitas | Output | Durasi (jam) |
 | :--- | :--- | :--- | :--- |
-| Senin | Kuliah, Praktikum, Nugas | Memahami dasar sintaks python, blind search, menyicil LaPrak DKA | 6,5 Jam |
-| Selasa | Kuliah, Praktikum, Webianar, Nugas | Mempelajari langkah-langkah mendesain UI, mempelajari sintaks dasar Java, mendapatkan ilmu tentang big data, menyelesaikan Laprak PBO, dan menyelesaikan tugas DKA | 9 Jam |
-| Rabu | Kuliah, Kuis, Nugas | Mempelajari algoritma Greedy dan knapsack, Menyelesaikan quiz Strategi Algoritma, dan menyelesaikan Laprak DKA | 6 Jam |
-| Kamis | Kuliah, Nugas, Diskusi | Memahami HTTP, DNS, dan penggunaan wireshark, Menyelesaikan 2 modul Jarkom, Diskusi pembagian tugas IMK | 8,5 Jam |
-| Jumat | Nugas dan Kuis | Menyelesaikan 2 modul terakhir Jarkom dan menyelesaikan quiz PBO | 4,5 Jam |
+| Senin | Kuliah, Praktikum, Nugas | • Memahami dasar sintaks python, blind search <br /> • Menyicil LaPrak DKA | 6,5 Jam |
+| Selasa | Kuliah, Praktikum, Webianar, Nugas | <br /> • Mempelajari langkah-langkah mendesain UI <br /> • Mempelajari sintaks dasar Java <br /> • Mendapatkan ilmu tentang big data <br /> • Menyelesaikan Laprak PBO <br /> • Menyelesaikan tugas DKA | 9 Jam |
+| Rabu | Kuliah, Kuis, Nugas | • Mempelajari algoritma Greedy dan knapsack <br /> •Menyelesaikan quiz Strategi Algoritma <br /> • Menyelesaikan Laprak DKA | 6 Jam |
+| Kamis | Kuliah, Nugas, Diskusi | • Memahami HTTP, DNS, dan penggunaan wireshark <br /> • Menyelesaikan 2 modul Jarkom <br /> • Diskusi pembagian tugas IMK | 8,5 Jam |
+| Jumat | Nugas dan Kuis | <br /> • Menyelesaikan 2 modul terakhir Jarkom <br /> • Menyelesaikan quiz PBO | 4,5 Jam |
 
 ![alt text](../../assets/Week_3/hasil_wireshark.png)
 
