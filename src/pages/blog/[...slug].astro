@@ -1,20 +1,31 @@
 ---
 import { type CollectionEntry, getCollection, render } from 'astro:content';
-import BlogPost from '../../layouts/ProjectLayout.astro';
+// Pastikan nama layout ini sesuai dengan yang kamu gunakan
+import ProjectLayout from '../../layouts/ProjectLayout.astro';
 
 export async function getStaticPaths() {
-	const posts = await getCollection('blog');
-	return posts.map((post) => ({
-		params: { slug: post.id },
-		props: post,
-	}));
-}
-type Props = CollectionEntry<'blog'>;
+    const posts = await getCollection('blog');
+    
+    // 1. Mengurutkan artikel dari yang terbaru ke terlama
+    posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-const post = Astro.props;
+    return posts.map((post, index) => {
+        // 2. Mencari artikel sebelumnya (index + 1 karena urutannya menurun)
+        const prevPost = index + 1 < posts.length ? posts[index + 1] : null;
+
+        return {
+            params: { slug: post.id },
+            // 3. Wajib mengirimkan prevPost di dalam props ini
+            props: { post, prevPost },
+        };
+    });
+}
+
+// 4. Menangkap props yang dikirim dari getStaticPaths
+const { post, prevPost } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<BlogPost {...post.data}>
-	<Content />
-</BlogPost>
+<ProjectLayout {...post.data} prevPost={prevPost}>
+    <Content />
+</ProjectLayout>
