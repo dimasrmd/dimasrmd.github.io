@@ -1,7 +1,7 @@
 ---
 title: 'Journal Mahasiswa Minggu Ke-3'
 description: 'Jurnal Mingguan Ke-3'
-pubDate: 'Jun 14 2026'
+pubDate: 'March 23 2026'
 heroImage: '../../assets/Week_3/Sampul-Jurnal-Week-3.png'
 category: 'Campus'
 readingTime: '3 MINS'

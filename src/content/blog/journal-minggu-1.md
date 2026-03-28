@@ -1,7 +1,7 @@
 ---
 title: 'Journal Mahasiswa Minggu Ke-1'
 description: 'Jurnal Mingguan Ke-1'
-pubDate: 'Feb 28 2026'
+pubDate: 'March 9 2026'
 heroImage: '../../assets/blog-placeholder-tower.jpg'
 category: 'Campus'
 readingTime: '3 MINS'
