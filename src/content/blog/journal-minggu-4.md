@@ -9,7 +9,7 @@ readingTime: '3 MINS'
 
 Setelah satu minggu jeda untuk merayakan Idulfitri, minggu keempat ini menjadi momen 're-entry' yang cukup menantang. Perkuliahan masih berlangsung secara daring karena suasana mudik yang masih terasa, namun ritme produktivitas saya justru meningkat drastis. Sorotan utama minggu ini adalah keputusan saya untuk keluar dari zona nyaman dengan mengikuti ajang INNECTION 2026. Proses adaptasi antara kewajiban akademik dan persiapan lomba essai tim menjadi warna baru dalam perjalanan semester 4 saya.
 
-## Ringkasan Aktivitas Mingguan (Minggu Ke-3)
+## Ringkasan Aktivitas Mingguan (Minggu Ke-4)
 | Hari | Fokus Aktivitas | Output | Durasi (jam) |
 | :--- | :--- | :--- | :--- |
 | Senin | Nugas, Rapat Lomba | • Mengerjakan Laprak Mata Kuliah DKA <br /> • Menyiapkan PPT untuk presentasi rapat lomba besok <br /> • Mengikuti Rapat Lomba | 5 Jam |
