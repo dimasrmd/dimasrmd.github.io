@@ -9,7 +9,7 @@ readingTime: '3 MINS'
 
 Minggu keenam ini membawa saya menyelam lebih dalam ke lautan logika dan struktur data. Minggu ini dipenuhi dengan eksplorasi algoritma-algoritma fundamental pencarian dan pemecahan masalah seperti Hill Climbing, Breadth-First Search (BFS), Depth-First Search (DFS), hingga konsep Divide and Conquer. Tidak hanya berteori, saya juga dihadapkan pada implementasi nyata Object-Oriented Programming (OOP) melalui modifier dan constructor di Java. Di tengah padatnya teknis perkuliahan, tugas refleksi diri dari mata kuliah WGTIK memberikan saya ruang sejenak untuk memetakan kembali rencana masa depan saya di dunia teknologi.
 
-## Ringkasan Aktivitas Mingguan (Minggu Ke-5)
+## Ringkasan Aktivitas Mingguan (Minggu Ke-7)
 | Hari | Fokus Aktivitas | Output | Durasi (jam) |
 | :--- | :--- | :--- | :--- |
 | Senin | Kuliah, Praktikum, dan Nugas | • Kuliah DKA mempelajari algoritma HillClimbing dan turunannya <br /> • Praktikum DKA mempelajari algoritma BFS dan DFS <br /> • Laprak PBO tentang Cisco | ... Jam |
