@@ -32,7 +32,6 @@ Tuliskan pencapaian utama:
 
 ## Kendala Mingguan
 - Akademik: Algoritma Knapsack dan Heuristic Search membutuhkan logika matematis yang cukup menguras otak jika dikerjakan bersamaan dengan tugas praktikum yang menumpuk.
-- Teknis: Konfigurasi di Cisco Packet Tracer terkadang mengalami error pada routing yang memakan waktu cukup lama untuk debugging.
 - Pribadi: Kelelahan fisik akibat pengerjaan 3 laporan praktikum (DKA, PBO, Jarkom) dalam satu minggu yang sama.
 
 ## Evaluasi Diri
