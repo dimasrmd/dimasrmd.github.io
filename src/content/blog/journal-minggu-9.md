@@ -9,14 +9,14 @@ readingTime: '3 MINS'
 
 Minggu kesembilan ini menjadi momen transisi setelah melewati padatnya pekan UTS. Ritme perkuliahan mulai kembali normal, namun tantangannya justru bergeser ke arah implementasi proyek nyata dan pemahaman materi yang lebih mendalam. Di minggu ini, saya berhasil mempresentasikan proposal proyek "maskverify" untuk mata kuliah WGTIK. Selain itu, eksplorasi teknis semakin meluas, mulai dari mempelajari algoritma *Dynamic Programming* hingga praktik membuat *web server* secara langsung menggunakan *socket* di Python. Sebagai penutup minggu, saya juga meluangkan waktu mengeksplorasi materi *Spec-Driven Development* menggunakan Kiro untuk memperluas wawasan teknis di luar kampus.
 
-## Ringkasan Aktivitas Mingguan (Minggu Ke-8)
+## Ringkasan Aktivitas Mingguan (Minggu Ke-9)
 | Hari | Fokus Aktivitas | Output | Durasi (jam) |
 | :--- | :--- | :--- | :--- |
-| Senin | Kuliah, Presentasi, dan Praktikum | • Kelas Teori DKA - *Knowledge and Reasoning* <br /> • Presentasi WGTIK - Proposal "maskverify" <br /> • Kelas Praktikum DKA - Implementasi *Best-first search* | 7,5 Jam |
-| Selasa | Praktikum & Laprak | • Kelas Praktikum PBO - Variabel *casting* dan *collection* <br /> • Membuat Laprak Jarkom modul 9 | 6 Jam |
+| Senin | Kuliah, Presentasi, dan Praktikum | • Kelas Teori DKA - *Knowledge and Reasoning* <br /> • Presentasi WGTIK - Proposal "maskverify" <br /> • Kelas Praktikum DKA - Implementasi *Best-first search* | 7 Jam |
+| Selasa | Praktikum & Laprak | • Kelas Praktikum PBO - Variabel *casting* dan *collection* <br /> • Membuat Laprak Jarkom modul 9 | 4 Jam |
 | Rabu | Kuliah | • Kelas teori Strategi Algoritma - *Dynamic programming* | 3 Jam |
-| Kamis | Praktikum, Quiz, dan Laprak | • Kelas Praktikum Jarkom - Membuat *web server* langsung menggunakan *socket* Python <br /> • Kuis 7 dan 9 kelas teori Jarkom <br /> • Melanjutkan dan menyelesaikan Laprak Modul 9 Jarkom | 8 Jam |
-| Jumat | Belajar | • Mengikuti course AWS Academy - *Spec-driven development* dengan Kiro | 4 Jam |
+| Kamis | Praktikum, Quiz, dan Laprak | • Kelas Praktikum Jarkom - Membuat *web server* langsung menggunakan *socket* Python <br /> • Kuis 7 dan 9 kelas teori Jarkom <br /> • Melanjutkan dan menyelesaikan Laprak Modul 9 Jarkom | 7 Jam |
+| Jumat | Belajar | • Mengikuti course AWS Academy - *Spec-driven development* dengan Kiro | 2 Jam |
 
 ## Capaian Minggu Ini
 Tuliskan pencapaian utama:
