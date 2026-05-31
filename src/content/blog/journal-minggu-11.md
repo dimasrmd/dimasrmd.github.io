@@ -12,11 +12,11 @@ Minggu kesebelas ini menandai transisi penuh dari fase pembelajaran teori menuju
 ## Ringkasan Aktivitas Mingguan (Minggu Ke-11)
 | Hari | Fokus Aktivitas | Output | Durasi (jam) |
 | :--- | :--- | :--- | :--- |
-| Senin | Kuliah, Praktikum, Tugas, dan Laprak | • Kuliah teori DKA - *Fuzzy Logic* <br /> • Mengerjakan Tugas Besar IMK - *Prototyping* <br /> • Kuliah Praktikum DKA - Library *SymPy* <br /> • Membuat video *live coding* PBO <br /> • Menyusun Laprak DKA - Modul 12 | 9,5 Jam |
-| Selasa | Praktikum, Tugas, dan Laprak | • Kelas Praktikum PBO - Modul 11 (HTML, CSS, JavaScript) <br /> • Tugas DKA - *Reasoning* <br /> • Mengerjakan Laprak PBO - Modul 11 (Belum selesai) | 7,5 Jam |
+| Senin | Kuliah, Praktikum, Tugas, dan Laprak | • Kuliah teori DKA - *Fuzzy Logic* <br /> • Mengerjakan Tugas Besar IMK - *Prototyping* <br /> • Kuliah Praktikum DKA - Library *SymPy* <br /> • Membuat video *live coding* PBO <br /> • Menyusun Laprak DKA - Modul 12 | 13 Jam |
+| Selasa | Praktikum, Tugas, dan Laprak | • Kelas Praktikum PBO - Modul 11 (HTML, CSS, JavaScript) <br /> • Tugas DKA - *Reasoning* <br /> • Mengerjakan Laprak PBO - Modul 11 (Belum selesai) | 7 Jam |
 | Rabu | Kuliah dan Laprak | • Kelas teori Strategi Algoritma - *Dynamic Programming Traveling Salesperson Problem* (TSP) <br /> • Menyelesaikan Laprak PBO - Modul 11 <br /> • Menyelesaikan Laprak DKA - Modul 12 <br /> • Mengerjakan Laprak Jarkom - Modul 10 | 8 Jam |
-| Kamis | Laprak | • Menyelesaikan Laprak Jarkom - Modul 10 (IP) | 4 Jam |
-| Jumat | Tugas | • Melanjutkan Tugas Besar IMK - *Prototyping* <br /> • Melanjutkan Tugas Besar Jarkom <br /> • Mencari Course Soft-Skill (SimpliLearn) | 6,5 Jam |
+| Kamis | Laprak | • Menyelesaikan Laprak Jarkom - Modul 10 (IP) | 1 Jam |
+| Jumat | Tugas | • Melanjutkan Tugas Besar IMK - *Prototyping* <br /> • Melanjutkan Tugas Besar Jarkom <br /> • Mencari Course Soft-Skill (SimpliLearn) | 5 Jam |
 
 ## Capaian Minggu Ini
 1. **Algorithm & Logic Expansion**: Berhasil memahami paradigma *Fuzzy Logic* (logika samar) yang sangat berbeda dari *boolean logic* biasa, serta memecahkan optimasi rute melalui *Dynamic Programming* (TSP).
