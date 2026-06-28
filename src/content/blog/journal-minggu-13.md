@@ -12,11 +12,11 @@ Minggu ketiga belas ini bisa dibilang sebagai "Minggu Tugas Besar". Fokus saya s
 ## Ringkasan Aktivitas Mingguan (Minggu Ke-13)
 | Hari | Fokus Aktivitas | Output | Durasi (jam) |
 | :--- | :--- | :--- | :--- |
-| Senin | Webinar dan Tubes | • Mengikuti *International Guest Lecture 2026* <br /> • Menyusun laporan Tugas Besar Jaringan Komputer <br /> • Mengerjakan Tugas Besar PBO - merancang *class* | 8 Jam |
-| Selasa | Tubes | • Melanjutkan Tubes PBO - memantau progres tim | 4 Jam |
-| Rabu | Tubes | • Melanjutkan Tubes PBO - mengevaluasi progres tim | 4 Jam |
-| Kamis | Tubes | • Melanjutkan Tubes PBO - Integrasi program dengan *database* | 7 Jam |
-| Jumat | Tubes dan Laprak | • Melanjutkan Tubes PBO - memonitoring progres tim <br /> • Mengerjakan Laprak PBO secara maraton - modul 12, 13, dan 14 | 8 Jam |
+| Senin | Webinar dan Tubes | • Mengikuti *International Guest Lecture 2026* <br /> • Menyusun laporan Tugas Besar Jaringan Komputer <br /> • Mengerjakan Tugas Besar PBO - merancang *class* | 8,25 Jam |
+| Selasa | Tubes | • Melanjutkan Tubes PBO - memantau progres tim | 2 Jam |
+| Rabu | Tubes | • Melanjutkan Tubes PBO - mengevaluasi progres tim | 2 Jam |
+| Kamis | Tubes | • Melanjutkan Tubes PBO - Integrasi program dengan *database* | 2 Jam |
+| Jumat | Tubes dan Laprak | • Melanjutkan Tubes PBO - memonitoring progres tim <br /> • Mengerjakan Laprak PBO - modul 12, 13, dan 14 | 4 Jam |
 
 ## Capaian Minggu Ini
 1. **Database Integration**: Berhasil menghubungkan aplikasi Java pada Tugas Besar PBO dengan *database*, yang merupakan langkah paling krusial dalam pembuatan aplikasi dunia nyata.
